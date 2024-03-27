@@ -6,7 +6,7 @@ import humidity_icon from "../Assets/humidity.png";
 import search_icon from "../Assets/search.png";
 import axios from "axios";
 
-export const WeatherApp = () => {
+const WeatherApp = () => {
   let api_key = "2cb4da2d24ac812e84c92b4c5d5a390b";
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState({
